@@ -11,6 +11,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     };
 }
 
+export async function generateStaticParams() {
+    return [
+        { lang: 'en' },
+        { lang: 'es' },
+    ];
+}
+
 export default async function ContactPage({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params;
     const dict = await getDictionary(lang as Locale);

@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next'
 import { getProjectSlugs } from '@/lib/content'
 import { i18n } from '@/i18n/config'
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://federicoaltrui.com'
 

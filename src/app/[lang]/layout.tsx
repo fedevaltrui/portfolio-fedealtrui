@@ -20,6 +20,13 @@ export const metadata: Metadata = {
   description: "Engineering scalable backends and modern web experiences.",
 };
 
+export async function generateStaticParams() {
+  return [
+    { lang: 'en' },
+    { lang: 'es' },
+  ];
+}
+
 export default async function RootLayout({
   children,
   params,

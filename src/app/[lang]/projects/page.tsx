@@ -12,6 +12,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     };
 }
 
+export async function generateStaticParams() {
+    return [
+        { lang: 'en' },
+        { lang: 'es' },
+    ];
+}
+
 export default async function ProjectsPage({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params;
     const locale = lang as Locale;

@@ -1,8 +1,15 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Database, Server, Code2, GitMerge } from "lucide-react";
-import { getAllProjects } from "@/lib/content";
 import { getDictionary, Locale } from "@/i18n/config";
+import { getAllProjects } from "@/lib/content";
+
+export async function generateStaticParams() {
+  return [
+    { lang: 'en' },
+    { lang: 'es' },
+  ];
+}
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
