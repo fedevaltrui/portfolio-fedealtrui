@@ -1,0 +1,63 @@
+{
+    "navbar": {
+        "work": "Trabajo",
+        "about": "Sobre mí",
+        "contact": "Contacto",
+        "resume": "Currículum"
+    },
+    "footer": {
+        "description": "Desarrollando backends escalables y experiencias web modernas.",
+        "status": "Actualmente disponible para roles de ingeniería.",
+        "rights": "Todos los derechos reservados."
+    },
+    "home": {
+        "hero": {
+            "title_1": "Desarrollando",
+            "title_2": "backends escalables y experiencias",
+            "title_3": "web modernas",
+            "title_4": ".",
+            "description": "Desarrollador Fullstack (Node.js, PostgreSQL, Next.js). Entregando soluciones basadas en datos para organizaciones como el Club Atlético Lanús. Enfoque en el rendimiento, arquitectura limpia y entrega rápida.",
+            "view_case_studies": "Ver Casos de Estudio",
+            "contact_me": "Contáctame"
+        },
+        "work": {
+            "title": "Trabajo Destacado",
+            "view_all": "Ver todos los proyectos",
+            "featured": "Destacado",
+            "read_case_study": "Leer Caso de Estudio",
+            "no_projects": "No se encontraron proyectos destacados."
+        },
+        "expertise": {
+            "title": "Experiencia Técnica",
+            "backend_title": "Backend y Bases de Datos",
+            "backend_desc": "Node.js, Express, PostgreSQL, REST APIs, GraphQL. Fuerte énfasis en la integridad de los datos y optimización de consultas.",
+            "frontend_title": "Arquitectura Frontend",
+            "frontend_desc": "React, Next.js y Tailwind CSS. Enfoque en interfaces de usuario responsivas, accesibles y de carga rápida.",
+            "devops_title": "DevOps y Herramientas",
+            "devops_desc": "Git, Docker, pipelines CI/CD, Vercel y entornos Linux. Asegurando despliegues sin problemas y alta disponibilidad."
+        }
+    },
+    "projects": {
+        "title": "Trabajo Destacado",
+        "description": "Una selección de casos de estudio que detallan decisiones arquitectónicas, resolución de deuda técnica y mejoras en la escalabilidad del backend.",
+        "back_home": "Volver al Inicio",
+        "back_projects": "Volver a Proyectos"
+    },
+    "contact": {
+        "title": "Conectemos",
+        "description": "Actualmente estoy disponible para roles de ingeniería. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible por responderte!",
+        "email": "Correo",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+    },
+    "about": {
+        "title": "Sobre Mí",
+        "philosophy_title": "Filosofía",
+        "philosophy_p1": "Creo que un gran software comienza con el modelo de datos. Cuando la base es sólida, la creación de experiencias de usuario impecables se convierte en una consecuencia natural, no en una batalla cuesta arriba. Mi enfoque se centra en escribir código limpio y testeable que los equipos realmente puedan mantener.",
+        "philosophy_p2": "Más allá del código, valoro la comunicación clara y la resolución pragmática de problemas. Ya sea diseñando un esquema de base de datos complejo para una iniciativa de alto tráfico como el Club Atlético Lanús o perfeccionando un frontend en Next.js, mi objetivo es siempre el mismo: aportar valor de negocio tangible a través de una ingeniería robusta.",
+        "experience_title": "Experiencia",
+        "experience_lanus_role": "Desarrollador Fullstack",
+        "experience_lanus_company": "Club Atlético Lanús · 2023 - Presente",
+        "experience_lanus_desc": "Colaborando con el desarrollo del museo del Club Atlético Lanús, diseñando un portal de estadísticas de alto rendimiento utilizando Node.js, PostgreSQL y Next.js."
+    }
+}

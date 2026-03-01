@@ -1,0 +1,63 @@
+{
+    "navbar": {
+        "work": "Work",
+        "about": "About",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+    "footer": {
+        "description": "Engineering scalable backends and modern web experiences.",
+        "status": "Currently open for engineering roles.",
+        "rights": "All rights reserved."
+    },
+    "home": {
+        "hero": {
+            "title_1": "Engineering scalable",
+            "title_2": "backends and",
+            "title_3": "modern web",
+            "title_4": "experiences.",
+            "description": "Fullstack Developer (Node.js, PostgreSQL, Next.js). Delivering data-driven solutions for organizations like Club Atlético Lanús. Focus on performance, clean architecture, and rapid delivery.",
+            "view_case_studies": "View Case Studies",
+            "contact_me": "Contact Me"
+        },
+        "work": {
+            "title": "Selected Work",
+            "view_all": "View all projects",
+            "featured": "Featured",
+            "read_case_study": "Read Case Study",
+            "no_projects": "No featured projects found."
+        },
+        "expertise": {
+            "title": "Technical Expertise",
+            "backend_title": "Backend & Databases",
+            "backend_desc": "Node.js, Express, PostgreSQL, REST APIs, GraphQL. Strong emphasis on data integrity and query optimization.",
+            "frontend_title": "Frontend Architecture",
+            "frontend_desc": "React, Next.js, and Tailwind CSS. Focus on responsive, accessible, and fast-loading user interfaces.",
+            "devops_title": "DevOps & Tools",
+            "devops_desc": "Git, Docker, CI/CD pipelines, Vercel, and Linux environments. Ensuring smooth deployments and high availability."
+        }
+    },
+    "projects": {
+        "title": "Selected Work",
+        "description": "A selection of case studies detailing architectural decisions, technical debt resolution, and backend scalability improvements.",
+        "back_home": "Back to Home",
+        "back_projects": "Back to Projects"
+    },
+    "contact": {
+        "title": "Let's Connect",
+        "description": "I'm currently open for engineering roles. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+    },
+    "about": {
+        "title": "About Me",
+        "philosophy_title": "Philosophy",
+        "philosophy_p1": "I believe that great software starts with the data model. When the foundation is solid, building seamless user experiences becomes a natural consequence, not an uphill battle. My approach centers on writing clean, testable code that teams can actually maintain.",
+        "philosophy_p2": "Beyond the code, I value clear communication and pragmatic problem-solving. Whether it’s architecting a complex database schema for a high-traffic initiative like Club Atlético Lanús or pixel-perfecting a Next.js frontend, my goal is always the same: to deliver tangible business value through robust engineering.",
+        "experience_title": "Experience",
+        "experience_lanus_role": "Fullstack Developer",
+        "experience_lanus_company": "Club Atlético Lanús · 2023 - Present",
+        "experience_lanus_desc": "Collaborating with the development of the Club Atlético Lanús museum, architecting a high-performance statistics portal using Node.js, PostgreSQL, and Next.js."
+    }
+}
